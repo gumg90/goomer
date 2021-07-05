@@ -5,13 +5,14 @@ This project aims to automate Front calls in order to facilitate the validation 
 
 ## Prerequisites
 
-- Have node and npm installed on the machine
+- Have node.js installed
+- Have npm or yarn installed (in project use npm)
 
 ## How to run
 
-- Open the terminal service
-- Access the /goomer and run npm install to install project dependencies
-- Run the API tests with one of the commands below::
+- Open the terminal
+- Access the /goomer and run npm install to install all project dependencies
+- To execute the tests, use this commands bellow:
    
-   * Type ```npm run test``` to run on chrome
-   * Type ```npm run test-headless``` to run in headless and generate reports about execution in folder ```mochawesome-report```
+   * Type "npm run cypress:open" to open cypress visual mode
+   * Type "npm run cypress:run" to run cypress headless mode generate reports about execution in folder ```mochawesome-report```
