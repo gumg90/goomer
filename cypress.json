@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://desafio-qa-automacao.goomer.com.br/",
+    "video": true,
+    "videoCompression": 0,
+    "retries": 2
+}
